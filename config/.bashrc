@@ -13,7 +13,7 @@ echo registered bash scripts
 
 # Global Shortcuts
 alias rc="npp $HOME/.bashrc"
-alias ls="ls -alpG"
+alias ls="ls -alpG --color"
 alias gcp="git cherry-pick"
 alias cpc="git cherry-pick --continue"
 alias chl="git checkout -"
