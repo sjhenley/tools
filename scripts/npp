@@ -1,0 +1,9 @@
+if [ -z $* ]
+then
+  notepad++.exe &
+else
+  for file in $*
+  do
+    notepad++.exe $file &
+  done
+fi
